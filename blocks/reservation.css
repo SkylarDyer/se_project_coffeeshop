@@ -1,36 +1,48 @@
-.reservation{
-    background-color: #D9E7FF;
-    background-image: url("../images/background-reservation.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.reservation {
+  background-image: url("../images/background-reservation.svg");
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
-.reservation__form{
-max-width: 385px;
-margin: 0 auto;
-box-sizing: border-box;
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.reservation__title{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 80px;
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 80px;
 }
 
-.form__input{
-    box-sizing: border-box;
+.form__input {
+  max-height: 60px;
+  max-width: 385px;
+  margin-bottom: 32px;
 }
 
-.form__input[type="guests"]
-.form__input[type="name"]
-.form__input[type="date"]
-.form__input[type="terms"]
-.form__input{
-    
+.form__checkbox {
+  min-width: 20px;
+  min-height: 20px;
+  vertical-align: middle;
+}
+
+.form__label {
+  border-radius: 4px;
+  padding-bottom: 8px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
 }
