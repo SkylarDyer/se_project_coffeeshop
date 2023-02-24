@@ -211,24 +211,75 @@
                 placeholder="mm/dd/yyyy --:-- --"
               />
               <label for="email" class="form__label">Your email *</label>
-              <input type="email" class="text" id="email" name="email" placeholder="email@email.com"/>
-              <button type="submit" class="form__button">Book a table</button>
-              <label for="terms" class="label"
-                >I agree with the terms of use</label
-              >
-              
               <input
-                type="radio"
-                class="form__checkbox"
-                name="I agree with the terms of use"
-                id="terms"
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
               />
-              
+              <button type="submit" class="form__button">Book a table</button>
+              <label
+                for="terms"
+                class="form__label form__checkbox-type-checkbox"
+              >
+                <input
+                  type="checkbox"
+                  class="form__checkbox form__checkbox-type-checkbox"
+                  name="I agree with the terms of use"
+                  id="terms"
+                />
+                I agree with the terms of use</label
+              >
             </fieldset>
           </form>
         </section>
+        <section class="about">
+          <h3 class="about__title">About the coffee shop</h3>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our cofee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+      <div class="footer__content">
+        <img src="images/practicum_logo.svg" class="footer__logo" alt="practicum logo" />
+        <div class="footer__social-heading">
+          <h3 class="footer__social-heading">Social media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <img
+              class="footer__social-icon"
+              alt="facebook"
+              src="images/facebook_white.svg" />
+              <a class="footer__social-link">Facebook</a>
+            </li>
+            <li class="footer__social-icon">
+              <img
+              class="footer__social-icon"
+              src="images/instagram_white.svg" />
+              <a class="footer__social-link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">© 2023 Skylar Dyer</div>
+    </footer>
     </div>
   </body>
 </html>
+
+
