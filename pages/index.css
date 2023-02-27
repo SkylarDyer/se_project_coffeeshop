@@ -6,15 +6,6 @@
 @import url("../blocks/reservation.css");
 @import url("../blocks/about.css");
 @import url("../blocks/footer.css");
+@import url("../blocks/page.css");
 
-
-
-.page {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-}
 
