@@ -11,11 +11,11 @@
   margin-bottom: 108px;
 }
 .footer__social-heading {
- padding-bottom: 20px;
+ 
 }
 
 .footer__list-item {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__copyright {
@@ -27,28 +27,40 @@ margin-bottom: 16px;
 }
 
 .footer__social-link {
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
-    padding-bottom: 16px;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  padding-bottom: 16px;
+  color: #fff;
 }
 
 .footer__social-link:hover {
-    color: #C1C1C1;
-  }
-
-.footer__social-icon{
-    height: 16px;
-    width: 16px;
-    padding-right: 10px;
+  color: #c1c1c1;
 }
 
-.footer__list{
-    list-style: none;
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
 }
 
-.footer__logo{
-    width: 116px;
-    height: 21px;
-    position: relative;
+.footer__list {
+  list-style: none;
+  margin: 0;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+  position: relative;
+}
+
+.footer__social {
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.footer__list-item:first-of-type {
+  /* padding-bottom: 16px; */
 }
