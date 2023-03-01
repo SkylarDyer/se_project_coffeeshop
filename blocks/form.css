@@ -1,10 +1,7 @@
 .form__input {
     min-height: 60px;
-    min-height: 60px;
     max-width: 385px;
     margin-bottom: 32px;
-    border-radius: 4px;
-    box-sizing: border-box;
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -17,17 +14,13 @@
     background-color: #2f80ed;
   }
   
-  .form__label {
-    border-radius: 4px;
-  }
-  
+
   .form__fieldset {
     display: flex;
     flex-direction: column;
     max-width: 385px;
     border-style: none;
-    padding-bottom: 120px;
-    
+    padding: 0 0 120px;
   }
   
   .form__button {
@@ -45,7 +38,7 @@
     transition: ease-in 2s;
   }
   
-  .form__checkbox-type-checkbox {
+  .form__button_type_checkbox {
     display: flex;
     justify-content: center;
   }

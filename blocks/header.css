@@ -71,11 +71,6 @@
 }
 
 .header__paragraph {
-  margin-bottom: 0;
+  margin: 0;
 }
 
-.header__paragraph-address {
-  align-self: flex-end;
-  bottom: 40px;
-  right: 80px;
-}
