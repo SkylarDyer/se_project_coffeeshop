@@ -38,7 +38,7 @@
     transition: ease-in 2s;
   }
   
-  .form__button_type_checkbox {
+  .form__button-type-checkbox {
     display: flex;
     justify-content: center;
   }
