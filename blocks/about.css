@@ -42,7 +42,7 @@
 .about__content {
   max-width: 660px;
   padding-top: 119px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif," "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   font-style: normal;
@@ -62,12 +62,12 @@
   overflow: hidden;
 }
 
-.about__paragraph{
+.about__paragraph {
   margin: 0;
   padding-bottom: 20px;
 }
 
-.about__paragraph:last-of-type{
+.about__paragraph:last-of-type {
   padding-bottom: 0;
 }
 
