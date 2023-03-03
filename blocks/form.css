@@ -11,8 +11,6 @@
   min-height: 20px;
   border-radius: 2px;
   margin-right: 12px;
-  display: flex;
-  justify-content: center;
   background-color: #2f80ed;
   font-family: "Inter", Arial, sans-serif;
   font-style: 500;
@@ -53,4 +51,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.form__label:last-of-type {
+  display: flex;
+  justify-content: center;
 }
